@@ -1,0 +1,14 @@
+body {
+    font-family: 'Hero';
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+
+}
+
+.footer {
+    
+}
