@@ -106,44 +106,76 @@ margin: 18px;
 /* Here is all of our formatting for second content section box */
 .subcontenttwo {
     background-color: #F9FAF8;
+    display: flex;
     flex: auto;
     flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .twotitle {
     color:#1F2937;
     font-size:24px;
+    font-weight: bold;
+    padding:25px;
 }
 
 .boxtexts {
     display: flex;
-    padding: 15px;
+    gap:30px;
 
 }
 
 .boxtext {
     flex-wrap: wrap;
-    color:#e5e7eb;
-    width: 150px;
+    color:#1F2937;
+    width: 130px;
     height: auto;
+    font-size:14px;
 
 }
 
 .boxes {
     display: flex;
-    padding: 15px;
+    gap:30px;
 }
 
 .box {
+    width: 130px;
+    height:130px;
+    border-style:solid;
+    border-color:#3882F6;
+    border-radius:12px;
 
 }
 /* Here is all of our formatting for third content section box */
 .subcontentthree {
     background-color: #E5E7EB;
+    display: flex;
     flex: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+.threequote {
+    color:#1F2937;
+    font-style: italic;
+    font-size: 20px;
+    width: 600px;
+}
+
+.threeauthor {
+    color:#1F2937;
+    font-weight: bold;
+    font-size: 16px;
+    width:600px;
+    text-align: right;
+}
+
 /* Here is all of our formatting for fourth content section box */
 .subcontentfour {
     background-color: #F9FAF8;
     flex: auto;
+    display: flex;
 }
